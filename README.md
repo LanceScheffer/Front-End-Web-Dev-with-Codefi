@@ -1,2 +1,2 @@
-# Class exercises
+# Class exercises/videos. Random Projects.
  
