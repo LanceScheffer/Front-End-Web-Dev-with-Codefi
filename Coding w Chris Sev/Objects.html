@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+        body { padding: 30px; }
+    </style>
+
+</head>
+<body>
+    
+    <!-- 🏀🏀🏀🏀start javascript🏀🏀🏀🏀 -->
+    <!-- //Everything in Javacript is an Object -->
+    <script>
+      const hero = {
+        name: 'Bruce Wayne',
+        alias: 'Batman',
+        catchprase: 'To the Batcave!',
+        speak: function() {
+            return 'Attention! '+ this.catchphrase;
+        },
+        attack: function(sound) {
+            // return '(punches bad guy)' + sound;
+            return `(punches bad guy) ${sound}`;
+        }
+      };
+
+      //access a property
+      //passing in the variable thingToLookFor
+      const thingToLookFor = 'alias'
+
+
+      console.log(hero.name);//Bruce Wayne
+      console.log(hero['name']);//Bruce Wayne
+      console.log(hero[thingToLookFor]);//Batman
+
+      //accessing methods (functions)
+      console.log(hero.speak());
+      console.log(hero.attack('POWWW'));
+
+      'this is my string'.toUpperCase();
+      
+    </script>
+</body>
+</html>
