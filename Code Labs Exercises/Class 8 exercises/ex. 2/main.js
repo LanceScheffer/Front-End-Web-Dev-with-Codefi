@@ -18,3 +18,5 @@ function getCharCodes(s){
 }
 
 console.log(getCharCodes("Hello world"));
+
+
